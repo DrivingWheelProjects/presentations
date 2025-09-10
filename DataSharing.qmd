@@ -10,7 +10,7 @@ format:
 ## 1. Privacy-Enhancing Technology
 
 ##
-[![](PET_100.png)](https://fas.org/publication/increasing-responsible-data-sharing-capacity-throughout-government/)
+[![](PET_100.png){target="_blank"}](https://fas.org/publication/increasing-responsible-data-sharing-capacity-throughout-government/)
 
 ## Essay, not a Paper
  - "As a democratic, civil-rights respecting nation, it is irresponsible for our government agencies to continue to collect and disseminate datasets without careful consideration of the privacy implications of data sharing."
@@ -19,7 +19,7 @@ format:
 ## 2. Human-Computer Interaction
 
 ## 
-[![](HCI_100.png)](https://dl.acm.org/doi/pdf/10.1145/3706598.3714089)
+[![](HCI_100.png){target="_blank"}](https://dl.acm.org/doi/pdf/10.1145/3706598.3714089)
 
 ## This paper has three key aims:
  - (1) to gain insights into the data sharing practices of fertility trackers by revealing the nature of their data transmissions
@@ -30,7 +30,7 @@ format:
  
 ## \[Too Much or Too Little\] Data Sharing is an HCI Problem for \[These People\] using \[This Technology\]
   - (1) review *This Technology*
-  - (2) ask *These People* about Data Sharing 
+  - (2) ask *These People* about Data Sharing and if *Too Much or Too Little*
   - (3) make recommendations
 
 ## \[Too Much\] Data Sharing is an HCI Problem for \[Women\] using \[Fertility Trackers\]

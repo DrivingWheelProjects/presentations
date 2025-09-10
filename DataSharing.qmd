@@ -10,7 +10,7 @@ format:
 ## 1. Privacy-Enhancing Technology
 
 ##
-[![](PET_100.png)](https://fas.org/publication/increasing-responsible-data-sharing-capacity-throughout-government/){target="_blank"}
+[![](PET_100.png)](https://fas.org/publication/increasing-responsible-data-sharing-capacity-throughout-government){target="_blank"}
 
 ## Essay, not a Paper
  - "As a democratic, civil-rights respecting nation, it is irresponsible for our government agencies to continue to collect and disseminate datasets without careful consideration of the privacy implications of data sharing."

@@ -30,7 +30,7 @@ format:
 
  > "participants will predict player movement by using data before the football is thrown to produce insights on where players will move while the football is in the air"
  
- - use prediction algorithms to assess effect of noise on player movement data for simulated data
+ - use prediction algorithms to assess effect of noise on player movement data in order to create simulated data
  - Sports Data Sharing Stakeholders study (maybe)
 
 ## 6. Blogs

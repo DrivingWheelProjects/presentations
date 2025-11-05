@@ -63,18 +63,18 @@
     "text": "[Too Little] Data Sharing is an HCI Problem for [Sports’ Leagues, Teams, Players] using [Players’ Performance Tracking Technology]"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Presentations",
     "section": "",
     "text": "Data Sharing\nUpdate\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "Update110525.html#athletes-data-interview-study-ieee-sp-position-paper",

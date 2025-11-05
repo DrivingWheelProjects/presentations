@@ -1,0 +1,38 @@
+---
+title: "Projects Update"
+author: "Brad Stenger"
+format: 
+    revealjs:
+        transition: slide
+        background-transition: fade
+---
+
+## 1. Athletes' Data Interview Study: IEEE S&P position paper
+
+##
+[![](SankeyWithHeadings.png){width=800}](https://www.computer.org/digital-library/magazines/sp/cfp-privacy-contextual-integrity){target="_blank"}
+
+## 2. Athletes' Data Interview Study: conference papers
+ - PrivaCI 2026 (Urbana-Champaign, IL) deadline: February 14
+ - PETS 2026 (Calgary) deadline: March 1
+
+## 3. Athletes' Data Contextual Integrity Vignette Survey Study
+ - survey design using results from interview Study
+ - construction of survey panels: Prolific, Collaborators
+ - conference paper, CHI 2027 (Pittsburgh) deadline: summer 2026
+
+## 4. attending CHI 2026 (Barcelona)
+ - April 13-17
+ - Sports HCI workshop (announced December 2025)
+
+## 5. Sports Data Sharing
+ - [NFL Big Data Bowl](https://operations.nfl.com/gameday/analytics/big-data-bowl/)
+
+ > "participants will predict player movement by using data before the football is thrown to produce insights on where players will move while the football is in the air"
+ 
+ - use prediction algorithms to assess effect of noise on player movement data for simulated data
+ - Sports Data Sharing Stakeholders study (maybe)
+
+## 6. Blogs
+ - [Athletes Data Community Newsletter](https://newsletter.bradstenger.com){target="_blank"}
+ - [Green Mountain Differential Privacy Blog](https://test.bradstenger.com){target="_blank"}

@@ -74,6 +74,48 @@
     "href": "index.html",
     "title": "Presentations",
     "section": "",
-    "text": "Data Sharing\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Data Sharing\nUpdate\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "Update110525.html#athletes-data-interview-study-ieee-sp-position-paper",
+    "href": "Update110525.html#athletes-data-interview-study-ieee-sp-position-paper",
+    "title": "Projects Update",
+    "section": "1. Athletes’ Data Interview Study: IEEE S&P position paper",
+    "text": "1. Athletes’ Data Interview Study: IEEE S&P position paper"
+  },
+  {
+    "objectID": "Update110525.html#athletes-data-interview-study-conference-papers",
+    "href": "Update110525.html#athletes-data-interview-study-conference-papers",
+    "title": "Projects Update",
+    "section": "2. Athletes’ Data Interview Study: conference papers",
+    "text": "2. Athletes’ Data Interview Study: conference papers\n\nPrivaCI 2026 (Urbana-Champaign, IL) deadline: February 14\nPETS 2026 (Calgary) deadline: March 1"
+  },
+  {
+    "objectID": "Update110525.html#athletes-data-contextual-integrity-vignette-survey-study",
+    "href": "Update110525.html#athletes-data-contextual-integrity-vignette-survey-study",
+    "title": "Projects Update",
+    "section": "3. Athletes’ Data Contextual Integrity Vignette Survey Study",
+    "text": "3. Athletes’ Data Contextual Integrity Vignette Survey Study\n\nsurvey design using results from interview Study\nconstruction of survey panels: Prolific, Collaborators\nconference paper, CHI 2027 (Pittsburgh) deadline: summer 2026"
+  },
+  {
+    "objectID": "Update110525.html#attending-chi-2026-barcelona",
+    "href": "Update110525.html#attending-chi-2026-barcelona",
+    "title": "Projects Update",
+    "section": "4. attending CHI 2026 (Barcelona)",
+    "text": "4. attending CHI 2026 (Barcelona)\n\nApril 13-17\nSports HCI workshop (announced December 2025)"
+  },
+  {
+    "objectID": "Update110525.html#sports-data-sharing",
+    "href": "Update110525.html#sports-data-sharing",
+    "title": "Projects Update",
+    "section": "5. Sports Data Sharing",
+    "text": "5. Sports Data Sharing\n\nNFL Big Data Bowl\n\n\n“participants will predict player movement by using data before the football is thrown to produce insights on where players will move while the football is in the air”\n\n\nuse prediction algorithms to assess effect of noise on player movement data for simulated data\nSports Data Sharing Stakeholders study (maybe)"
+  },
+  {
+    "objectID": "Update110525.html#blogs",
+    "href": "Update110525.html#blogs",
+    "title": "Projects Update",
+    "section": "6. Blogs",
+    "text": "6. Blogs\n\nAthletes Data Community Newsletter\nGreen Mountain Differential Privacy Blog"
   }
 ]

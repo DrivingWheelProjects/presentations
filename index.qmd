@@ -2,6 +2,7 @@
 title: "Presentations"
 ---
 
-[Data Sharing](DataSharing.qmd)
+* [Data Sharing](DataSharing.qmd)
+* [Update](Update110525.qmd)
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

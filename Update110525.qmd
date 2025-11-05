@@ -36,3 +36,4 @@ format:
 ## 6. Blogs
  - [Athletes Data Community Newsletter](https://newsletter.bradstenger.com){target="_blank"}
  - [Green Mountain Differential Privacy Blog](https://test.bradstenger.com){target="_blank"}
+ - Sports Analytics Reports (UVM, NBA)

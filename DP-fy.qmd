@@ -1,0 +1,64 @@
+---
+title: "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy"
+author: "Brad Stenger"
+format: 
+    revealjs:
+        transition: slide
+        background-transition: fade
+---
+
+## How to DP-fy Your Data
+
+In this survey we explore the full suite of techniques surrounding DP synthetic data, the types of
+privacy protections different generation approaches can offer, and the state-of-the-art for various
+modalities including image, tabular, text and federated (decentralized) data. We outline all the
+components needed in a system that generates DP synthetic data, from sensitive data handling and
+preparation, to tracking the use of synthetic data and empirical privacy testing.
+
+See Also: [ICML 2025 Workshop](https://slideslive.com/icml-2025/dpfy-your-data-how-to-and-why-synthesize-differentially-private-synthetic-data)
+
+## 
+
+In this survey we explore the full suite of techniques surrounding DP synthetic data, the types of
+privacy protections different generation approaches can offer, and [the state-of-the-art for various
+modalities including image, tabular, text and federated (decentralized) data]{style="color:red"}. We outline all the
+components needed in a system that generates DP synthetic data, from sensitive data handling and
+preparation, to tracking the use of synthetic data and empirical privacy testing.
+
+## skip image data (Sec 4) and federated learning (Sec 6)
+
+* tabular data (Sec 3)
+* text data (Sec 5)
+
+## DP Synthetic data
+
+* division of labor between data engineer and data analyst
+* data engineer creates DP synthetic dataset
+* data analyst works with data that they can understand, with the benefit that it's private
+* alternative: data engineer and analyst collaborate to models that are useful and private, but neither understand what the other is talking about
+
+## DP-fy tabular data
+
+[ICML Tutorial: Tabular data](https://slideslive.com/39043838/methods-for-dp-synthetic-tabular-data?ref=folder-199124) starting at 17:41
+
+* histogram
+* Select-Measure-Estimate paradigm, workload-based methods, tension between rigor & scalability (Sec 3.3)
+* alt: LLM-based methods (Sec 3.7)
+* evaluation: statistical fidelity of marginals, pairwise attribute distribution similarity, pairwise correlation similarity, standard statistical tests (Kolmogrov-Smirnov, Chi-square), distributional metrics (Sec 3.8)
+
+## DP-fy tabular data ... just tell me what to do
+
+[ICML Tutorial: Tabular data](https://slideslive.com/39043838/methods-for-dp-synthetic-tabular-data?ref=folder-199124) starting at 32:21
+
+* if you want to match marginals => workload-based
+* better off using marginal based methods (MWEM+PGEM, AIM) if you don't expect extremely high degree interaction between columns
+* consider LLM-based methods where histogram-based methods won't be able to discover connections that LLMs already know based on column names & values - these are small data regimes
+
+## DP-fy text data with DP finetuning
+
+* finetune an LLM with DP-SGD to generate data (Sec 5.2)
+* "workhorse method that is best for most cases"
+* [LoRA tutorial on Building a Text Classifier](https://github.com/meta-pytorch/opacus/blob/main/tutorials/building_text_classifier.ipynb)
+* [Google Deepmind synthetic data for text Colab Tutorial](https://github.com/google-deepmind/jax_privacy/blob/main/examples/dp_sgd_keras_gemma3_synthetic_data.ipynb)
+* skip Private evolution, DP inference methods for synthetic data
+* MAUVE score measures distribution similarity (Sec 5.6)

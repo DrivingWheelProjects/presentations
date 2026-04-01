@@ -63,20 +63,6 @@
     "text": "[Too Little] Data Sharing is an HCI Problem for [Sports’ Leagues, Teams, Players] using [Players’ Performance Tracking Technology]"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "Data Sharing\nUpdate\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "Update110525.html#athletes-data-interview-study-ieee-sp-position-paper",
     "href": "Update110525.html#athletes-data-interview-study-ieee-sp-position-paper",
     "title": "Projects Update",
@@ -117,5 +103,68 @@
     "title": "Projects Update",
     "section": "6. Blogs",
     "text": "6. Blogs\n\nAthletes Data Community Newsletter\nGreen Mountain Differential Privacy Blog\nSports Analytics Reports (UVM, NBA)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Data Sharing\nUpdate\nHow to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy"
+  },
+  {
+    "objectID": "DP-fy.html#how-to-dp-fy-your-data",
+    "href": "DP-fy.html#how-to-dp-fy-your-data",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "How to DP-fy Your Data",
+    "text": "How to DP-fy Your Data\nIn this survey we explore the full suite of techniques surrounding DP synthetic data, the types of privacy protections different generation approaches can offer, and the state-of-the-art for various modalities including image, tabular, text and federated (decentralized) data. We outline all the components needed in a system that generates DP synthetic data, from sensitive data handling and preparation, to tracking the use of synthetic data and empirical privacy testing.\nSee Also: ICML 2025 Workshop"
+  },
+  {
+    "objectID": "DP-fy.html#section",
+    "href": "DP-fy.html#section",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "",
+    "text": "In this survey we explore the full suite of techniques surrounding DP synthetic data, the types of privacy protections different generation approaches can offer, and the state-of-the-art for various modalities including image, tabular, text and federated (decentralized) data. We outline all the components needed in a system that generates DP synthetic data, from sensitive data handling and preparation, to tracking the use of synthetic data and empirical privacy testing."
+  },
+  {
+    "objectID": "DP-fy.html#skip-image-data-sec-4-and-federated-learning-sec-6",
+    "href": "DP-fy.html#skip-image-data-sec-4-and-federated-learning-sec-6",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "skip image data (Sec 4) and federated learning (Sec 6)",
+    "text": "skip image data (Sec 4) and federated learning (Sec 6)\n\ntabular data (Sec 3)\ntext data (Sec 5)"
+  },
+  {
+    "objectID": "DP-fy.html#dp-synthetic-data",
+    "href": "DP-fy.html#dp-synthetic-data",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "DP Synthetic data",
+    "text": "DP Synthetic data\n\ndivision of labor between data engineer and data analyst\ndata engineer creates DP synthetic dataset\ndata analyst works with data that they can understand, with the benefit that it’s private\nalternative: data engineer and analyst collaborate to models that are useful and private, but neither understand what the other is talking about"
+  },
+  {
+    "objectID": "DP-fy.html#dp-fy-tabular-data",
+    "href": "DP-fy.html#dp-fy-tabular-data",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "DP-fy tabular data",
+    "text": "DP-fy tabular data\nICML Tutorial: Tabular data starting at 17:41\n\nhistogram\nSelect-Measure-Estimate paradigm, workload-based methods, tension between rigor & scalability (Sec 3.3)\nalt: LLM-based methods (Sec 3.7)\nevaluation: statistical fidelity of marginals, pairwise attribute distribution similarity, pairwise correlation similarity, standard statistical tests (Kolmogrov-Smirnov, Chi-square), distributional metrics (Sec 3.8)"
+  },
+  {
+    "objectID": "DP-fy.html#dp-fy-tabular-data-just-tell-me-what-to-do",
+    "href": "DP-fy.html#dp-fy-tabular-data-just-tell-me-what-to-do",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "DP-fy tabular data … just tell me what to do",
+    "text": "DP-fy tabular data … just tell me what to do\nICML Tutorial: Tabular data starting at 32:21\n\nif you want to match marginals =&gt; workload-based\nbetter off using marginal based methods (MWEM+PGEM, AIM) if you don’t expect extremely high degree interaction between columns\nconsider LLM-based methods where histogram-based methods won’t be able to discover connections that LLMs already know based on column names & values - these are small data regimes"
+  },
+  {
+    "objectID": "DP-fy.html#dp-fy-text-data-with-dp-finetuning",
+    "href": "DP-fy.html#dp-fy-text-data-with-dp-finetuning",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "DP-fy text data with DP finetuning",
+    "text": "DP-fy text data with DP finetuning\n\nfinetune an LLM with DP-SGD to generate data (Sec 5.2)\n“workhorse method that is best for most cases”\nLoRA tutorial on Building a Text Classifier\nGoogle Deepmind synthetic data for text Colab Tutorial\nskip Private evolution, DP inference methods for synthetic data\nMAUVE score measures distribution similarity (Sec 5.6)"
   }
 ]

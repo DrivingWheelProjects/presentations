@@ -4,5 +4,4 @@ title: "Presentations"
 
 * [Data Sharing](DataSharing.qmd)
 * [Update](Update110525.qmd)
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+* [How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy](DP-fy.qmd)

@@ -5,3 +5,4 @@ title: "Presentations"
 * [Data Sharing](DataSharing.qmd)
 * [Update](Update110525.qmd)
 * [How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy](DP-fy.qmd)
+* [2026 CI Symposium](CI_Presentation.qmd)

@@ -1,5 +1,215 @@
 [
   {
+    "objectID": "CI_Presentation.html#ci-personal-tracking-technologies-questionnaire",
+    "href": "CI_Presentation.html#ci-personal-tracking-technologies-questionnaire",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "CI: Personal Tracking Technologies Questionnaire",
+    "text": "CI: Personal Tracking Technologies Questionnaire"
+  },
+  {
+    "objectID": "CI_Presentation.html#pttq-results",
+    "href": "CI_Presentation.html#pttq-results",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "PTTQ Results",
+    "text": "PTTQ Results"
+  },
+  {
+    "objectID": "CI_Presentation.html#pttq-information-flows",
+    "href": "CI_Presentation.html#pttq-information-flows",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "PTTQ Information Flows",
+    "text": "PTTQ Information Flows"
+  },
+  {
+    "objectID": "CI_Presentation.html#interviews-seven-use-cases",
+    "href": "CI_Presentation.html#interviews-seven-use-cases",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "Interviews: Seven Use Cases",
+    "text": "Interviews: Seven Use Cases\n\nTraining Load\nSleep\nInjury\nSetbacks\nLeaderboard\nNutrition\nWomens"
+  },
+  {
+    "objectID": "CI_Presentation.html#word-frequency-analysis-iwe-ratio",
+    "href": "CI_Presentation.html#word-frequency-analysis-iwe-ratio",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "Word Frequency Analysis: I/We Ratio",
+    "text": "Word Frequency Analysis: I/We Ratio"
+  },
+  {
+    "objectID": "CI_Presentation.html#word-frequency-analysis-iwe-ratio-1",
+    "href": "CI_Presentation.html#word-frequency-analysis-iwe-ratio-1",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "Word Frequency Analysis: I/We Ratio",
+    "text": "Word Frequency Analysis: I/We Ratio"
+  },
+  {
+    "objectID": "CI_Presentation.html#reflexive-thematic-analysis-gray-areas",
+    "href": "CI_Presentation.html#reflexive-thematic-analysis-gray-areas",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "Reflexive Thematic Analysis: Gray Areas",
+    "text": "Reflexive Thematic Analysis: Gray Areas\nHow do you feel about college teams using PTT data to manage athlete development setbacks?\nI feel like it could be a good thing. Uh, as long as it’s not like abused.\nAre there specific purposes or context that make it inappropriate or make it appropriate?\nUm, I guess it just like kind of depends on the type of setback, like who it’s related to. Uh, like training and everything. It, I think, is a little bit more appropriate because that’s kind of what you’re doing with the team. But if it’s related to things outside of training, it’s kind of like in a gray area.\nWhat do you mean by gray area?\nBecause, like, the things kind of affect the training, and it could be technically part of the team’s business because of that, but also it’s kind of like part of your personal life."
+  },
+  {
+    "objectID": "CI_Presentation.html#reflexive-thematic-analysis-finding-the-narrative-in-injuries-setbacks-sleep-nutrition",
+    "href": "CI_Presentation.html#reflexive-thematic-analysis-finding-the-narrative-in-injuries-setbacks-sleep-nutrition",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "Reflexive Thematic Analysis: Finding the Narrative in Injuries, Setbacks, Sleep, Nutrition",
+    "text": "Reflexive Thematic Analysis: Finding the Narrative in Injuries, Setbacks, Sleep, Nutrition\n\nResponses to Questions about Injuries and Setbacks were Habits\nWe ask about Habits in Sleep and Nutrition\nCollege Athlete Common Personal Attributes: Trust, Self-belief\nConfirmation Bias\nSentiment: Negative for Injuries, Positive for Habits\nSet Up for Success"
+  },
+  {
+    "objectID": "CI_Presentation.html#ci-information-flows-ffor-sleep-nutrition",
+    "href": "CI_Presentation.html#ci-information-flows-ffor-sleep-nutrition",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "CI Information Flows ffor Sleep, Nutrition",
+    "text": "CI Information Flows ffor Sleep, Nutrition"
+  },
+  {
+    "objectID": "CI_Presentation.html#current-work-student-athlete-surveys",
+    "href": "CI_Presentation.html#current-work-student-athlete-surveys",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "Current Work: Student-Athlete Surveys",
+    "text": "Current Work: Student-Athlete Surveys\n\nVignettes as Pairwise-Comparisons\nCan I get useful information from student-athletes in 10 minutes or less?\nFocused Questions, Limited Combinations\nElo Rankings and Hierarchical Bayesian Analysis"
+  },
+  {
+    "objectID": "CI_Presentation.html#leaderboard-survey-ci-parameters",
+    "href": "CI_Presentation.html#leaderboard-survey-ci-parameters",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "Leaderboard Survey: CI Parameters",
+    "text": "Leaderboard Survey: CI Parameters\n\nlibrary(jsonlite)\n\njson &lt;- '{\n    \"datatype\": [\"ongoing training\", \"ongoing results\", \"singular event\"],\n    \"sender\": [\"strength coach\",\"assistant coach\",\"head coach\"],\n    \"tp\": [\"skill development\",\"competition cutoff\",\"motivation\"],\n    \"recipient\": [\"whole team\"],\n    \"purpose\": [\"athlete development\",\"team development\",\"coaching assesment\"]\n}'\n\nci &lt;- jsonlite::fromJSON(json)"
+  },
+  {
+    "objectID": "CI_Presentation.html#leaderboard-survey-comparison-combinations",
+    "href": "CI_Presentation.html#leaderboard-survey-comparison-combinations",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "Leaderboard Survey: Comparison Combinations",
+    "text": "Leaderboard Survey: Comparison Combinations\n\ncombinations &lt;- expand.grid(ci$datatype,ci$sender,ci$tp,ci$recipient,ci$purpose)\nnames(combinations) &lt;- c(\"datatype\",\"sender\",\"tp\",\"recipient\",\"purpose\")\ncombinations\n\n           datatype          sender                 tp  recipient\n1  ongoing training  strength coach  skill development whole team\n2   ongoing results  strength coach  skill development whole team\n3    singular event  strength coach  skill development whole team\n4  ongoing training assistant coach  skill development whole team\n5   ongoing results assistant coach  skill development whole team\n6    singular event assistant coach  skill development whole team\n7  ongoing training      head coach  skill development whole team\n8   ongoing results      head coach  skill development whole team\n9    singular event      head coach  skill development whole team\n10 ongoing training  strength coach competition cutoff whole team\n11  ongoing results  strength coach competition cutoff whole team\n12   singular event  strength coach competition cutoff whole team\n13 ongoing training assistant coach competition cutoff whole team\n14  ongoing results assistant coach competition cutoff whole team\n15   singular event assistant coach competition cutoff whole team\n16 ongoing training      head coach competition cutoff whole team\n17  ongoing results      head coach competition cutoff whole team\n18   singular event      head coach competition cutoff whole team\n19 ongoing training  strength coach         motivation whole team\n20  ongoing results  strength coach         motivation whole team\n21   singular event  strength coach         motivation whole team\n22 ongoing training assistant coach         motivation whole team\n23  ongoing results assistant coach         motivation whole team\n24   singular event assistant coach         motivation whole team\n25 ongoing training      head coach         motivation whole team\n26  ongoing results      head coach         motivation whole team\n27   singular event      head coach         motivation whole team\n28 ongoing training  strength coach  skill development whole team\n29  ongoing results  strength coach  skill development whole team\n30   singular event  strength coach  skill development whole team\n31 ongoing training assistant coach  skill development whole team\n32  ongoing results assistant coach  skill development whole team\n33   singular event assistant coach  skill development whole team\n34 ongoing training      head coach  skill development whole team\n35  ongoing results      head coach  skill development whole team\n36   singular event      head coach  skill development whole team\n37 ongoing training  strength coach competition cutoff whole team\n38  ongoing results  strength coach competition cutoff whole team\n39   singular event  strength coach competition cutoff whole team\n40 ongoing training assistant coach competition cutoff whole team\n41  ongoing results assistant coach competition cutoff whole team\n42   singular event assistant coach competition cutoff whole team\n43 ongoing training      head coach competition cutoff whole team\n44  ongoing results      head coach competition cutoff whole team\n45   singular event      head coach competition cutoff whole team\n46 ongoing training  strength coach         motivation whole team\n47  ongoing results  strength coach         motivation whole team\n48   singular event  strength coach         motivation whole team\n49 ongoing training assistant coach         motivation whole team\n50  ongoing results assistant coach         motivation whole team\n51   singular event assistant coach         motivation whole team\n52 ongoing training      head coach         motivation whole team\n53  ongoing results      head coach         motivation whole team\n54   singular event      head coach         motivation whole team\n55 ongoing training  strength coach  skill development whole team\n56  ongoing results  strength coach  skill development whole team\n57   singular event  strength coach  skill development whole team\n58 ongoing training assistant coach  skill development whole team\n59  ongoing results assistant coach  skill development whole team\n60   singular event assistant coach  skill development whole team\n61 ongoing training      head coach  skill development whole team\n62  ongoing results      head coach  skill development whole team\n63   singular event      head coach  skill development whole team\n64 ongoing training  strength coach competition cutoff whole team\n65  ongoing results  strength coach competition cutoff whole team\n66   singular event  strength coach competition cutoff whole team\n67 ongoing training assistant coach competition cutoff whole team\n68  ongoing results assistant coach competition cutoff whole team\n69   singular event assistant coach competition cutoff whole team\n70 ongoing training      head coach competition cutoff whole team\n71  ongoing results      head coach competition cutoff whole team\n72   singular event      head coach competition cutoff whole team\n73 ongoing training  strength coach         motivation whole team\n74  ongoing results  strength coach         motivation whole team\n75   singular event  strength coach         motivation whole team\n76 ongoing training assistant coach         motivation whole team\n77  ongoing results assistant coach         motivation whole team\n78   singular event assistant coach         motivation whole team\n79 ongoing training      head coach         motivation whole team\n80  ongoing results      head coach         motivation whole team\n81   singular event      head coach         motivation whole team\n               purpose\n1  athlete development\n2  athlete development\n3  athlete development\n4  athlete development\n5  athlete development\n6  athlete development\n7  athlete development\n8  athlete development\n9  athlete development\n10 athlete development\n11 athlete development\n12 athlete development\n13 athlete development\n14 athlete development\n15 athlete development\n16 athlete development\n17 athlete development\n18 athlete development\n19 athlete development\n20 athlete development\n21 athlete development\n22 athlete development\n23 athlete development\n24 athlete development\n25 athlete development\n26 athlete development\n27 athlete development\n28    team development\n29    team development\n30    team development\n31    team development\n32    team development\n33    team development\n34    team development\n35    team development\n36    team development\n37    team development\n38    team development\n39    team development\n40    team development\n41    team development\n42    team development\n43    team development\n44    team development\n45    team development\n46    team development\n47    team development\n48    team development\n49    team development\n50    team development\n51    team development\n52    team development\n53    team development\n54    team development\n55  coaching assesment\n56  coaching assesment\n57  coaching assesment\n58  coaching assesment\n59  coaching assesment\n60  coaching assesment\n61  coaching assesment\n62  coaching assesment\n63  coaching assesment\n64  coaching assesment\n65  coaching assesment\n66  coaching assesment\n67  coaching assesment\n68  coaching assesment\n69  coaching assesment\n70  coaching assesment\n71  coaching assesment\n72  coaching assesment\n73  coaching assesment\n74  coaching assesment\n75  coaching assesment\n76  coaching assesment\n77  coaching assesment\n78  coaching assesment\n79  coaching assesment\n80  coaching assesment\n81  coaching assesment"
+  },
+  {
+    "objectID": "CI_Presentation.html#leaderboard-survey-vignettes-template",
+    "href": "CI_Presentation.html#leaderboard-survey-vignettes-template",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "Leaderboard Survey: Vignettes Template",
+    "text": "Leaderboard Survey: Vignettes Template\nAthletes’ results data from datatype on a leaderboard that is overseen by team’s sender and shown to recipient in order to tp with the purpose of purpose"
+  },
+  {
+    "objectID": "CI_Presentation.html#starting-july-1-2026",
+    "href": "CI_Presentation.html#starting-july-1-2026",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "Starting July 1, 2026",
+    "text": "Starting July 1, 2026"
+  },
+  {
+    "objectID": "CI_Presentation.html#thank-you",
+    "href": "CI_Presentation.html#thank-you",
+    "title": "Evidence of College Athletes’ Trust and Self-belief Attitudes in the Gray Area of Data Privacy Expectations",
+    "section": "Thank You",
+    "text": "Thank You\nAthletes Data Community Newsletter\nhttps://newsletter.bradstenger.com"
+  },
+  {
+    "objectID": "DP-fy.html#how-to-dp-fy-your-data",
+    "href": "DP-fy.html#how-to-dp-fy-your-data",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "How to DP-fy Your Data",
+    "text": "How to DP-fy Your Data\nIn this survey we explore the full suite of techniques surrounding DP synthetic data, the types of privacy protections different generation approaches can offer, and the state-of-the-art for various modalities including image, tabular, text and federated (decentralized) data. We outline all the components needed in a system that generates DP synthetic data, from sensitive data handling and preparation, to tracking the use of synthetic data and empirical privacy testing.\nSee Also: ICML 2025 Workshop"
+  },
+  {
+    "objectID": "DP-fy.html#section",
+    "href": "DP-fy.html#section",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "",
+    "text": "In this survey we explore the full suite of techniques surrounding DP synthetic data, the types of privacy protections different generation approaches can offer, and the state-of-the-art for various modalities including image, tabular, text and federated (decentralized) data. We outline all the components needed in a system that generates DP synthetic data, from sensitive data handling and preparation, to tracking the use of synthetic data and empirical privacy testing."
+  },
+  {
+    "objectID": "DP-fy.html#skip-image-data-sec-4-and-federated-learning-sec-6",
+    "href": "DP-fy.html#skip-image-data-sec-4-and-federated-learning-sec-6",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "skip image data (Sec 4) and federated learning (Sec 6)",
+    "text": "skip image data (Sec 4) and federated learning (Sec 6)\n\ntabular data (Sec 3)\ntext data (Sec 5)"
+  },
+  {
+    "objectID": "DP-fy.html#dp-synthetic-data",
+    "href": "DP-fy.html#dp-synthetic-data",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "DP Synthetic data",
+    "text": "DP Synthetic data\n\ndivision of labor between data engineer and data analyst\ndata engineer creates DP synthetic dataset\ndata analyst works with data that they can understand, with the benefit that it’s private\nalternative: data engineer and analyst collaborate to models that are useful and private, but neither understand what the other is talking about"
+  },
+  {
+    "objectID": "DP-fy.html#dp-fy-tabular-data",
+    "href": "DP-fy.html#dp-fy-tabular-data",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "DP-fy tabular data",
+    "text": "DP-fy tabular data\nICML Tutorial: Tabular data starting at 17:41\n\nhistogram\nSelect-Measure-Estimate paradigm, workload-based methods, tension between rigor & scalability (Sec 3.3)\nalt: LLM-based methods (Sec 3.7)\nevaluation: statistical fidelity of marginals, pairwise attribute distribution similarity, pairwise correlation similarity, standard statistical tests (Kolmogrov-Smirnov, Chi-square), distributional metrics (Sec 3.8)"
+  },
+  {
+    "objectID": "DP-fy.html#dp-fy-tabular-data-just-tell-me-what-to-do",
+    "href": "DP-fy.html#dp-fy-tabular-data-just-tell-me-what-to-do",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "DP-fy tabular data … just tell me what to do",
+    "text": "DP-fy tabular data … just tell me what to do\nICML Tutorial: Tabular data starting at 32:21\n\nif you want to match marginals =&gt; workload-based\nbetter off using marginal based methods (MWEM+PGEM, AIM) if you don’t expect extremely high degree interaction between columns\nconsider LLM-based methods where histogram-based methods won’t be able to discover connections that LLMs already know based on column names & values - these are small data regimes"
+  },
+  {
+    "objectID": "DP-fy.html#dp-fy-text-data-with-dp-finetuning",
+    "href": "DP-fy.html#dp-fy-text-data-with-dp-finetuning",
+    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "section": "DP-fy text data with DP finetuning",
+    "text": "DP-fy text data with DP finetuning\n\nfinetune an LLM with DP-SGD to generate data (Sec 5.2)\n“workhorse method that is best for most cases”\nLoRA tutorial on Building a Text Classifier\nGoogle Deepmind synthetic data for text Colab Tutorial\nskip Private evolution, DP inference methods for synthetic data\nMAUVE score measures distribution similarity (Sec 5.6)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Data Sharing\nUpdate\nHow to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy\n2026 CI Symposium"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "Update110525.html#athletes-data-interview-study-ieee-sp-position-paper",
+    "href": "Update110525.html#athletes-data-interview-study-ieee-sp-position-paper",
+    "title": "Projects Update",
+    "section": "1. Athletes’ Data Interview Study: IEEE S&P position paper",
+    "text": "1. Athletes’ Data Interview Study: IEEE S&P position paper"
+  },
+  {
+    "objectID": "Update110525.html#athletes-data-interview-study-conference-papers",
+    "href": "Update110525.html#athletes-data-interview-study-conference-papers",
+    "title": "Projects Update",
+    "section": "2. Athletes’ Data Interview Study: conference papers",
+    "text": "2. Athletes’ Data Interview Study: conference papers\n\nPrivaCI 2026 (Urbana-Champaign, IL) deadline: February 14\nPETS 2026 (Calgary) deadline: March 1"
+  },
+  {
+    "objectID": "Update110525.html#athletes-data-contextual-integrity-vignette-survey-study",
+    "href": "Update110525.html#athletes-data-contextual-integrity-vignette-survey-study",
+    "title": "Projects Update",
+    "section": "3. Athletes’ Data Contextual Integrity Vignette Survey Study",
+    "text": "3. Athletes’ Data Contextual Integrity Vignette Survey Study\n\nsurvey design using results from interview Study\nconstruction of survey panels: Prolific, Collaborators\nconference paper, CHI 2027 (Pittsburgh) deadline: summer 2026"
+  },
+  {
+    "objectID": "Update110525.html#attending-chi-2026-barcelona",
+    "href": "Update110525.html#attending-chi-2026-barcelona",
+    "title": "Projects Update",
+    "section": "4. attending CHI 2026 (Barcelona)",
+    "text": "4. attending CHI 2026 (Barcelona)\n\nApril 13-17\nSports HCI workshop (announced December 2025)"
+  },
+  {
+    "objectID": "Update110525.html#sports-data-sharing",
+    "href": "Update110525.html#sports-data-sharing",
+    "title": "Projects Update",
+    "section": "5. Sports Data Sharing",
+    "text": "5. Sports Data Sharing\n\nNFL Big Data Bowl\n\n\n“participants will predict player movement by using data before the football is thrown to produce insights on where players will move while the football is in the air”\n\n\nuse prediction algorithms to assess effect of noise on player movement data in order to create simulated data\nSports Data Sharing Stakeholders study (maybe)"
+  },
+  {
+    "objectID": "Update110525.html#blogs",
+    "href": "Update110525.html#blogs",
+    "title": "Projects Update",
+    "section": "6. Blogs",
+    "text": "6. Blogs\n\nAthletes Data Community Newsletter\nGreen Mountain Differential Privacy Blog\nSports Analytics Reports (UVM, NBA)"
+  },
+  {
     "objectID": "DataSharing.html#privacy-enhancing-technology",
     "href": "DataSharing.html#privacy-enhancing-technology",
     "title": "Data Sharing as Research Problem: Privacy-Enhancing Technology and Human-Computer Interaction",
@@ -61,110 +271,5 @@
     "title": "Data Sharing as Research Problem: Privacy-Enhancing Technology and Human-Computer Interaction",
     "section": "[Too Little] Data Sharing is an HCI Problem for [Sports’ Leagues, Teams, Players] using [Players’ Performance Tracking Technology]",
     "text": "[Too Little] Data Sharing is an HCI Problem for [Sports’ Leagues, Teams, Players] using [Players’ Performance Tracking Technology]"
-  },
-  {
-    "objectID": "Update110525.html#athletes-data-interview-study-ieee-sp-position-paper",
-    "href": "Update110525.html#athletes-data-interview-study-ieee-sp-position-paper",
-    "title": "Projects Update",
-    "section": "1. Athletes’ Data Interview Study: IEEE S&P position paper",
-    "text": "1. Athletes’ Data Interview Study: IEEE S&P position paper"
-  },
-  {
-    "objectID": "Update110525.html#athletes-data-interview-study-conference-papers",
-    "href": "Update110525.html#athletes-data-interview-study-conference-papers",
-    "title": "Projects Update",
-    "section": "2. Athletes’ Data Interview Study: conference papers",
-    "text": "2. Athletes’ Data Interview Study: conference papers\n\nPrivaCI 2026 (Urbana-Champaign, IL) deadline: February 14\nPETS 2026 (Calgary) deadline: March 1"
-  },
-  {
-    "objectID": "Update110525.html#athletes-data-contextual-integrity-vignette-survey-study",
-    "href": "Update110525.html#athletes-data-contextual-integrity-vignette-survey-study",
-    "title": "Projects Update",
-    "section": "3. Athletes’ Data Contextual Integrity Vignette Survey Study",
-    "text": "3. Athletes’ Data Contextual Integrity Vignette Survey Study\n\nsurvey design using results from interview Study\nconstruction of survey panels: Prolific, Collaborators\nconference paper, CHI 2027 (Pittsburgh) deadline: summer 2026"
-  },
-  {
-    "objectID": "Update110525.html#attending-chi-2026-barcelona",
-    "href": "Update110525.html#attending-chi-2026-barcelona",
-    "title": "Projects Update",
-    "section": "4. attending CHI 2026 (Barcelona)",
-    "text": "4. attending CHI 2026 (Barcelona)\n\nApril 13-17\nSports HCI workshop (announced December 2025)"
-  },
-  {
-    "objectID": "Update110525.html#sports-data-sharing",
-    "href": "Update110525.html#sports-data-sharing",
-    "title": "Projects Update",
-    "section": "5. Sports Data Sharing",
-    "text": "5. Sports Data Sharing\n\nNFL Big Data Bowl\n\n\n“participants will predict player movement by using data before the football is thrown to produce insights on where players will move while the football is in the air”\n\n\nuse prediction algorithms to assess effect of noise on player movement data in order to create simulated data\nSports Data Sharing Stakeholders study (maybe)"
-  },
-  {
-    "objectID": "Update110525.html#blogs",
-    "href": "Update110525.html#blogs",
-    "title": "Projects Update",
-    "section": "6. Blogs",
-    "text": "6. Blogs\n\nAthletes Data Community Newsletter\nGreen Mountain Differential Privacy Blog\nSports Analytics Reports (UVM, NBA)"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "Data Sharing\nUpdate\nHow to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy"
-  },
-  {
-    "objectID": "DP-fy.html#how-to-dp-fy-your-data",
-    "href": "DP-fy.html#how-to-dp-fy-your-data",
-    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
-    "section": "How to DP-fy Your Data",
-    "text": "How to DP-fy Your Data\nIn this survey we explore the full suite of techniques surrounding DP synthetic data, the types of privacy protections different generation approaches can offer, and the state-of-the-art for various modalities including image, tabular, text and federated (decentralized) data. We outline all the components needed in a system that generates DP synthetic data, from sensitive data handling and preparation, to tracking the use of synthetic data and empirical privacy testing.\nSee Also: ICML 2025 Workshop"
-  },
-  {
-    "objectID": "DP-fy.html#section",
-    "href": "DP-fy.html#section",
-    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
-    "section": "",
-    "text": "In this survey we explore the full suite of techniques surrounding DP synthetic data, the types of privacy protections different generation approaches can offer, and the state-of-the-art for various modalities including image, tabular, text and federated (decentralized) data. We outline all the components needed in a system that generates DP synthetic data, from sensitive data handling and preparation, to tracking the use of synthetic data and empirical privacy testing."
-  },
-  {
-    "objectID": "DP-fy.html#skip-image-data-sec-4-and-federated-learning-sec-6",
-    "href": "DP-fy.html#skip-image-data-sec-4-and-federated-learning-sec-6",
-    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
-    "section": "skip image data (Sec 4) and federated learning (Sec 6)",
-    "text": "skip image data (Sec 4) and federated learning (Sec 6)\n\ntabular data (Sec 3)\ntext data (Sec 5)"
-  },
-  {
-    "objectID": "DP-fy.html#dp-synthetic-data",
-    "href": "DP-fy.html#dp-synthetic-data",
-    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
-    "section": "DP Synthetic data",
-    "text": "DP Synthetic data\n\ndivision of labor between data engineer and data analyst\ndata engineer creates DP synthetic dataset\ndata analyst works with data that they can understand, with the benefit that it’s private\nalternative: data engineer and analyst collaborate to models that are useful and private, but neither understand what the other is talking about"
-  },
-  {
-    "objectID": "DP-fy.html#dp-fy-tabular-data",
-    "href": "DP-fy.html#dp-fy-tabular-data",
-    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
-    "section": "DP-fy tabular data",
-    "text": "DP-fy tabular data\nICML Tutorial: Tabular data starting at 17:41\n\nhistogram\nSelect-Measure-Estimate paradigm, workload-based methods, tension between rigor & scalability (Sec 3.3)\nalt: LLM-based methods (Sec 3.7)\nevaluation: statistical fidelity of marginals, pairwise attribute distribution similarity, pairwise correlation similarity, standard statistical tests (Kolmogrov-Smirnov, Chi-square), distributional metrics (Sec 3.8)"
-  },
-  {
-    "objectID": "DP-fy.html#dp-fy-tabular-data-just-tell-me-what-to-do",
-    "href": "DP-fy.html#dp-fy-tabular-data-just-tell-me-what-to-do",
-    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
-    "section": "DP-fy tabular data … just tell me what to do",
-    "text": "DP-fy tabular data … just tell me what to do\nICML Tutorial: Tabular data starting at 32:21\n\nif you want to match marginals =&gt; workload-based\nbetter off using marginal based methods (MWEM+PGEM, AIM) if you don’t expect extremely high degree interaction between columns\nconsider LLM-based methods where histogram-based methods won’t be able to discover connections that LLMs already know based on column names & values - these are small data regimes"
-  },
-  {
-    "objectID": "DP-fy.html#dp-fy-text-data-with-dp-finetuning",
-    "href": "DP-fy.html#dp-fy-text-data-with-dp-finetuning",
-    "title": "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
-    "section": "DP-fy text data with DP finetuning",
-    "text": "DP-fy text data with DP finetuning\n\nfinetune an LLM with DP-SGD to generate data (Sec 5.2)\n“workhorse method that is best for most cases”\nLoRA tutorial on Building a Text Classifier\nGoogle Deepmind synthetic data for text Colab Tutorial\nskip Private evolution, DP inference methods for synthetic data\nMAUVE score measures distribution similarity (Sec 5.6)"
   }
 ]

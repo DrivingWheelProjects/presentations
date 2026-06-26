@@ -1,0 +1,165 @@
+---
+title: "Gray Areas in College Athletes’ Data and Privacy"
+author: "Brad Stenger"
+format: 
+    revealjs:
+        theme: solarized
+        transition: slide
+        background-transition: fade
+        slide-tone: true
+        incremental: true
+filters:
+  - roughnotation
+---
+## Contextual Integrity
+
+Contextual integrity is a framework for understanding information flows and privacy in a specific context. CI has a set of five parameters that describe a contextual norm related to personal information flows. A *data type* describes the shared information. A *subject* describes who the information is about, usually it is the source of collected data. A *sender* describes who, or in some automated instances what, shares the data. A *recipient* gets the data. A *transmission principle* imposes constraints on the flow of information. An additional sixth parameter, *purpose*, is often relevant. Purpose describes the reason for having and sharing personal information, which is essential to the context.
+
+## CI: Personal Tracking Technologies Questionnaire {.smaller}
+::: {layout-ncol=2}
+
+![](PTTQ_1.png){.lightbox}
+
+![](PTTQ_2.png){.lightbox}
+
+:::
+
+## PTTQ Results
+
+![](PttqCircleWithKey.png){.lightbox}
+
+## PTTQ Information Flows
+
+![](AllInformationFlow.png){.lightbox}
+
+## Interviews: Seven Use Cases
+* Training Load
+* Sleep
+* Injury
+* Setbacks
+* Leaderboard
+* Nutrition
+* Womens
+
+## Word Frequency Analysis: I/We Ratio {.smaller}
+![](RadarTeamAgeWomen600.png){.lightbox}
+
+## Word Frequency Analysis: I/We Ratio {.smaller}
+![](TableIWe.png){.lightbox}
+
+## Training Load: Hypothetical Scenario
+![](Hypotheticals.png)
+
+## Training Load: Information Flow
+![](TrainingLoadSankey.png)
+
+## Reflexive Thematic Analysis (inductive): Gray Areas {.smaller}
+
+**How do you feel about college teams using PTT data to manage athlete development setbacks?**
+
+I feel like it could be a good thing. Uh, as long as it's not like abused. 
+
+**Are there specific purposes or context that make it inappropriate or make it appropriate?** 
+
+Um, I guess it just like kind of depends on the type of setback, like who it's related to. Uh, like training and everything. It, I think, is a little bit more appropriate because that's kind of what you're doing with the team. But if it's related to things outside of training, it's kind of like in a gray area.
+
+**What do you mean by gray area?**
+
+Because, like, the things kind of affect the training, and it could be technically part of the team's business because of that, but also it's kind of like part of your personal life.
+
+## Gray Aeas: Endurance Training Data Sharing
+![](AccessSharing.png)
+
+## Gray Areas: Social Psychology
+ * Personal identity vs social identity
+ * Metrics as arbitrary differentiators for in/out groups
+ 
+## Reflexive Thematic Analysis (inductive): Finding the Narrative in *Injuries*, *Setbacks*, *Sleep*, *Nutrition*
+* Responses to Questions about *Injuries* and *Setbacks* were Habits
+* We ask about Habits in *Sleep* and *Nutrition*
+* [College Athlete Common Personal Attributes: Trust, Self-belief]{.rn-fragment rn-type=strike-through rn-color=black}
+* [Confirmation Bias]{.rn-fragment rn-type=strike-through rn-color=black}
+* [Sentiment: Negative for Injuries, Positive for Habits]{.rn-fragment rn-type=strike-through rn-color=black}
+* Set Up for Success
+
+## CI Information Flows for *Sleep*, *Nutrition*
+
+::: {layout-ncol=3}
+![](SleepNutritionFlow_1.png)
+
+![](SleepNutritionFlow_2.png)
+
+![](SleepNutritionFlow_3.png)
+
+![](SleepNutritionFlow_4.png)
+
+![](SleepNutritionFlow_5.png)
+
+![](SleepNutritionFlow_6.png)
+
+![](SleepNutritionFlow_7.png)
+
+![](SleepNutritionFlow_8.png)
+
+![](SleepNutritionFlow_9.png)
+
+![](SleepNutritionFlow_10.png)
+
+![](SleepNutritionFlow_14.png)
+
+![](SleepNutritionFlow_15.png)
+
+![](SleepNutritionFlow_16.png)
+
+:::
+
+## Current Work: Student-Athlete Surveys
+* Vignettes as Pairwise-Comparisons
+* Can I get useful information from student-athletes in 10 minutes or less?
+* Focused Questions, Limited Combinations
+* Elo Rankings and Hierarchical Bayesian Analysis
+
+## Leaderboard Survey: CI Parameters {.smaller}
+
+```{r}
+#| echo: true
+#| eval: true
+
+library(jsonlite)
+
+json <- '{
+    "datatype": ["ongoing training", "ongoing results", "singular event"],
+    "sender": ["strength coach","assistant coach","head coach"],
+    "tp": ["skill development","competition cutoff","motivation"],
+    "recipient": ["whole team"],
+    "purpose": ["athlete development","team development","coaching assesment"]
+}'
+
+ci <- jsonlite::fromJSON(json)
+
+```
+
+## Leaderboard Survey: Comparison Combinations {.smaller}
+
+```{r}
+#| echo: true
+#| eval: true
+combinations <- expand.grid(ci$datatype,ci$sender,ci$tp,ci$recipient,ci$purpose)
+names(combinations) <- c("datatype","sender","tp","recipient","purpose")
+combinations
+
+```
+
+## Leaderboard Survey: Vignettes Template 
+
+Athletes' results data from *datatype* on a leaderboard that is overseen by team's *sender* and shown to *recipient* in order to *tp* with the purpose of *purpose*
+
+## Starting July 1, 2026
+
+![](VirginiaAthleteBiometricsLaw.png)
+
+## Thank You
+
+[Athletes Data Community Newsletter](https://newsletter.bradstenger.com) 
+
+https://newsletter.bradstenger.com

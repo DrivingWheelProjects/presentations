@@ -11,7 +11,7 @@ format:
 filters:
   - roughnotation
 ---
-## Contextual Integrity
+## Contextual Integrity {.smaller}
 
 Contextual integrity is a framework for understanding information flows and privacy in a specific context. CI has a set of five parameters that describe a contextual norm related to personal information flows. A *data type* describes the shared information. A *subject* describes who the information is about, usually it is the source of collected data. A *sender* describes who, or in some automated instances what, shares the data. A *recipient* gets the data. A *transmission principle* imposes constraints on the flow of information. An additional sixth parameter, *purpose*, is often relevant. Purpose describes the reason for having and sharing personal information, which is essential to the context.
 

@@ -294,6 +294,97 @@
     "text": "Thank You\nAthletes Data Community Newsletter\nhttps://newsletter.bradstenger.com"
   },
   {
+    "objectID": "SportsEngineering.html#outline",
+    "href": "SportsEngineering.html#outline",
+    "title": "Athletes’ Data Privacy",
+    "section": "Outline",
+    "text": "Outline\n\nDuty of Care\nData Exhaust\nPrivacy\nResponsible Data Sharing\nResearch Translation"
+  },
+  {
+    "objectID": "SportsEngineering.html#duty-of-care",
+    "href": "SportsEngineering.html#duty-of-care",
+    "title": "Athletes’ Data Privacy",
+    "section": "Duty of Care",
+    "text": "Duty of Care\nIn tort law, a duty of care is a legal obligation that is imposed on an individual, requiring adherence to a standard of reasonable care to avoid careless acts that could foreseeably harm others, and lead to claim in negligence. I\n\nBroadly applicable to sports\nDeliberately injuring an opponent\nSafe equipment\nCoaches and training"
+  },
+  {
+    "objectID": "SportsEngineering.html#data-exhaust",
+    "href": "SportsEngineering.html#data-exhaust",
+    "title": "Athletes’ Data Privacy",
+    "section": "Data Exhaust",
+    "text": "Data Exhaust\nData produced as a byproduct of an activity.\n\nStudent data\nCitizen data\nFinancial data\nSports fan data\nAthlete data"
+  },
+  {
+    "objectID": "SportsEngineering.html#section",
+    "href": "SportsEngineering.html#section",
+    "title": "Athletes’ Data Privacy",
+    "section": "",
+    "text": "Duty of Care\nData Exhaust"
+  },
+  {
+    "objectID": "SportsEngineering.html#privacy",
+    "href": "SportsEngineering.html#privacy",
+    "title": "Athletes’ Data Privacy",
+    "section": "Privacy",
+    "text": "Privacy\nSomeone’s right to keep their personal matters and relationships secret.\n\nspecifically, data and information privacy\nFERPA protects student information\nHIPAA protects health information (in clinical contexts)\nVermont Data Privacy and Online Surveillance Act (VDPOSA) (S. 71 / Act 145) takes effect on January 1, 2028\nBiometric data privacy"
+  },
+  {
+    "objectID": "SportsEngineering.html#athletes-biometric-data",
+    "href": "SportsEngineering.html#athletes-biometric-data",
+    "title": "Athletes’ Data Privacy",
+    "section": "Athletes Biometric Data",
+    "text": "Athletes Biometric Data"
+  },
+  {
+    "objectID": "SportsEngineering.html#section-1",
+    "href": "SportsEngineering.html#section-1",
+    "title": "Athletes’ Data Privacy",
+    "section": "",
+    "text": "Duty of Care\nData Exhaust\nPrivacy"
+  },
+  {
+    "objectID": "SportsEngineering.html#responsible-data-sharing",
+    "href": "SportsEngineering.html#responsible-data-sharing",
+    "title": "Athletes’ Data Privacy",
+    "section": "Responsible Data Sharing",
+    "text": "Responsible Data Sharing\n\nIt is possible to determine personal information by combining sources of de-identified data\nDifferential privacy: noise infustion to mask personal identifiable information\nAthletes can have recognizeable biometric or biomechanical signatures in their data"
+  },
+  {
+    "objectID": "SportsEngineering.html#section-2",
+    "href": "SportsEngineering.html#section-2",
+    "title": "Athletes’ Data Privacy",
+    "section": "",
+    "text": "Duty of Care\nData Exhaust\nPrivacy\nResponsible Data Sharing"
+  },
+  {
+    "objectID": "SportsEngineering.html#research-translation",
+    "href": "SportsEngineering.html#research-translation",
+    "title": "Athletes’ Data Privacy",
+    "section": "Research Translation",
+    "text": "Research Translation\nTranslational research is the process of converting basic scientific discoveries into practical applications.\n\nField-based studies\nLaboratory studies\nCausal analysis\nSports science research technology stack"
+  },
+  {
+    "objectID": "SportsEngineering.html#example-flexpro-grip",
+    "href": "SportsEngineering.html#example-flexpro-grip",
+    "title": "Athletes’ Data Privacy",
+    "section": "Example: FlexPro Grip",
+    "text": "Example: FlexPro Grip"
+  },
+  {
+    "objectID": "SportsEngineering.html#section-3",
+    "href": "SportsEngineering.html#section-3",
+    "title": "Athletes’ Data Privacy",
+    "section": "",
+    "text": "Duty of Care\nData Exhaust\nPrivacy\nResponsible Data Sharing\nResearch Translation"
+  },
+  {
+    "objectID": "SportsEngineering.html#thank-you",
+    "href": "SportsEngineering.html#thank-you",
+    "title": "Athletes’ Data Privacy",
+    "section": "Thank You",
+    "text": "Thank You\nBrad Stenger jstenger@uvm.edu\nAthletes Data Community Newsletter https://newsletter.bradstenger.com"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -305,7 +396,7 @@
     "href": "index.html",
     "title": "Presentations",
     "section": "",
-    "text": "Data Sharing\nUpdate\nHow to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy\n2026 CI Symposium\nJun 2026 IU School of Information"
+    "text": "Data Sharing\nUpdate\nHow to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy\n2026 CI Symposium\nJun 2026 IU School of Information\nNov 2026 UVM Sports Engineering class"
   },
   {
     "objectID": "Update110525.html#athletes-data-interview-study-ieee-sp-position-paper",

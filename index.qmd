@@ -7,3 +7,4 @@ title: "Presentations"
 * [How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy](DP-fy.qmd)
 * [2026 CI Symposium](CI_Presentation.qmd)
 * [Jun 2026 IU School of Information](IU_Presentation.qmd)
+* [Nov 2026 UVM Sports Engineering class](SportsEngineering.qmd)

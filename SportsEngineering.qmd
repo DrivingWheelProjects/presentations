@@ -10,7 +10,7 @@ format:
 filters:
   - roughnotation
 ---
-## Outline {.smaller}
+## Outline
 
 * Duty of Care
 * Data Exhaust
@@ -18,7 +18,7 @@ filters:
 * Responsible Data Sharing
 * Research Translation
 
-## Duty of Care
+## Duty of Care {.smaller}
 
 In tort law, a duty of care is a legal obligation that is imposed on an individual, requiring adherence to a standard of reasonable care to avoid careless acts that could foreseeably harm others, and lead to claim in negligence.
 
@@ -27,7 +27,7 @@ In tort law, a duty of care is a legal obligation that is imposed on an individu
 * Safe equipment
 * Coaches and training
 
-## Data Exhaust
+## Data Exhaust {.smaller}
 
 Data produced as a byproduct of an activity.
 
@@ -42,7 +42,7 @@ Data produced as a byproduct of an activity.
 * Duty of Care
 * Data Exhaust
 
-## Privacy
+## Privacy {.smaller}
 
 Someone's right to keep their personal matters and relationships secret.
 
@@ -64,7 +64,7 @@ Someone's right to keep their personal matters and relationships secret.
 * Data Exhaust
 * Privacy
 
-## Responsible Data Sharing
+## Responsible Data Sharing {.smaller}
 
 * It is possible to determine personal information by combining sources of de-identified data
 * Differential privacy: noise infusion to mask personal identifiable information
@@ -77,7 +77,7 @@ Someone's right to keep their personal matters and relationships secret.
 * Privacy
 * Responsible Data Sharing
 
-## Research Translation
+## Research Translation {.smaller}
 
 Translational research is the process of converting basic scientific discoveries into practical applications.
 

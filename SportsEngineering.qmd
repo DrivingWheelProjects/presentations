@@ -52,6 +52,7 @@ Someone's right to keep their personal matters and relationships secret.
 * Vermont Data Privacy and Online Surveillance Act (VDPOSA) (S. 71 / Act 145) takes effect on January 1, 2028
 * Biometric data privacy
 * Expectation of Privacy, Agreements & Consent
+* Privacy Enhancing Technology
 
 ## Athletes Biometric Data
 
@@ -89,7 +90,7 @@ Translational research is the process of converting basic scientific discoveries
 
 ![](FlexProGrip.jpg)
 
-##
+## Example: FlexPro Grip
 
 * Duty of Care
 * Data Exhaust

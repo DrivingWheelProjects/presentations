@@ -385,6 +385,76 @@
     "text": "Thank You\nBrad Stenger\njstenger@uvm.edu\nAthletes Data Community Newsletter\nhttps://newsletter.bradstenger.com"
   },
   {
+    "objectID": "UConnKSI.html#outline",
+    "href": "UConnKSI.html#outline",
+    "title": "Athletes’ Data Privacy",
+    "section": "Outline",
+    "text": "Outline\n\nPrivacy\n\nInformation Flows\nIndividual vs Social Identity\nAbundant Niches\n\nResponsible Data Sharing\n\nTechnology Stack\nCausal and Clinical Analysis: Evidence Requirements\n\nResearch Translation"
+  },
+  {
+    "objectID": "UConnKSI.html#half-of-a-bridge",
+    "href": "UConnKSI.html#half-of-a-bridge",
+    "title": "Athletes’ Data Privacy",
+    "section": "Half of a Bridge",
+    "text": "Half of a Bridge"
+  },
+  {
+    "objectID": "UConnKSI.html#privacy",
+    "href": "UConnKSI.html#privacy",
+    "title": "Athletes’ Data Privacy",
+    "section": "Privacy",
+    "text": "Privacy\nSomeone’s right to keep their personal matters and relationships secret.\n\nspecifically, data and information privacy\nFERPA protects student information\nHIPAA protects health information (in clinical contexts)\nBiometric data privacy\nExpectation of Privacy, Notice & Consent Privacy Management\nPrivacy Enhancing Technology\n\nDifferential Privacy\nSynthetic Data"
+  },
+  {
+    "objectID": "UConnKSI.html#athletes-biometric-data",
+    "href": "UConnKSI.html#athletes-biometric-data",
+    "title": "Athletes’ Data Privacy",
+    "section": "Athletes Biometric Data",
+    "text": "Athletes Biometric Data"
+  },
+  {
+    "objectID": "UConnKSI.html#responsible-data-sharing",
+    "href": "UConnKSI.html#responsible-data-sharing",
+    "title": "Athletes’ Data Privacy",
+    "section": "Responsible Data Sharing",
+    "text": "Responsible Data Sharing\n\nIt is possible to determine personal information by combining sources of de-identified data\nDifferential privacy: noise infusion to mask personal identifiable information\nAthletes can have recognizeable biometric or biomechanical signatures in their data\nExample: Cycle Tracking"
+  },
+  {
+    "objectID": "UConnKSI.html#technology-stack",
+    "href": "UConnKSI.html#technology-stack",
+    "title": "Athletes’ Data Privacy",
+    "section": "Technology Stack",
+    "text": "Technology Stack\n\nData Collection\n\nField-based research\nLaboratory research\n\n“Extraction”\nJupyterHealth Collaboration Layer\n\nResearch Team use case\nPersonalization use case\nAI use case"
+  },
+  {
+    "objectID": "UConnKSI.html#research-translation",
+    "href": "UConnKSI.html#research-translation",
+    "title": "Athletes’ Data Privacy",
+    "section": "Research Translation",
+    "text": "Research Translation\nTranslational research is the process of converting basic scientific discoveries into practical applications.\n\nCausal analysis\nPower Laws\nSports science research technology stack"
+  },
+  {
+    "objectID": "UConnKSI.html#example-flexpro-grip",
+    "href": "UConnKSI.html#example-flexpro-grip",
+    "title": "Athletes’ Data Privacy",
+    "section": "Example: FlexPro Grip",
+    "text": "Example: FlexPro Grip"
+  },
+  {
+    "objectID": "UConnKSI.html#example-flexpro-grip-1",
+    "href": "UConnKSI.html#example-flexpro-grip-1",
+    "title": "Athletes’ Data Privacy",
+    "section": "Example: FlexPro Grip",
+    "text": "Example: FlexPro Grip\n\nPrivacy\nResponsible Data Sharing\nResearch Translation"
+  },
+  {
+    "objectID": "UConnKSI.html#thank-you",
+    "href": "UConnKSI.html#thank-you",
+    "title": "Athletes’ Data Privacy",
+    "section": "Thank You",
+    "text": "Thank You\nBrad Stenger\njstenger@uvm.edu\nAthletes Data Community Newsletter\nhttps://newsletter.bradstenger.com"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
